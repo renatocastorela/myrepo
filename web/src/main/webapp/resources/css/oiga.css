@@ -1,0 +1,103 @@
+body
+ { 
+ 	padding-top: 70px; 
+ } 
+/*
+ * Custom Navbar
+ *
+ */
+ .navbar
+ {
+ 	margin-bottom: 0px;
+ }
+ .navbar-brand{
+ 	padding: 0px;
+ }
+ 
+ .display-none{
+ 	display: none;
+ }
+ 
+ #search-input
+ {
+ 	height:45px;
+ 	width: 300px;
+ }
+ 
+ /**
+  *Buttons
+  *
+  */
+.btn-connect {
+	line-height: 28px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px 3px 3px 3px;
+    padding: 15px 15px 15px 60px;
+} 
+/*
+Facebook-login
+------------------------------------------------------------ */
+.btn-facebook {
+    background: url("../img/btn-connect-facebook.png") no-repeat scroll 0 0 #3B5998;
+    color: rgb(255, 255, 255);
+}
+.btn-facebook:hover, .btn-facebook:focus{
+	color: #fff;
+	text-decoration: none;
+}
+ 
+/*
+Pistache button
+------------------------------------------------------------ */
+.btn-pistache
+ {
+	color: #fff;
+	background-color: #93C572;
+	border-color: #93C222;
+ }
+ 
+ .btn-pistache:HOVER
+ {
+	color: #fff;
+	background-color: #72C57A;
+ }
+ /*
+Pink button
+------------------------------------------------------------ */
+.btn-pink
+ {
+ 	border-radius: 3px;
+	box-shadow: 0 1px 1px #999;
+	color: #fff;
+	background-color: #c93764;
+	background: -moz-linear-gradient(top, #ea4c89, #c93764);
+	background: -ms-linear-gradient(top, #ea4c89, #c93764);
+	background: -webkit-linear-gradient(top, #ea4c89, #c93764);
+	border: 1px solid #c93764;
+	text-shadow: 0 -1px -1px #9d2849;
+	text-align: center;
+ }
+ 
+ .btn-pink:HOVER
+ {
+	color: #fff;
+	background-color: #ea4c89; /* fallback color */
+	background: -moz-linear-gradient(top, #c93764, #ea4c89);
+	background: -ms-linear-gradient(top, #c93764, #ea4c89);
+	background: -webkit-linear-gradient(top, #c93764, #ea4c89);
+ }
+ /**
+  *Maps
+  */
+  #map_container{
+  	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    height: 260px;
+    position: relative;
+    width: 300px;
+    z-index: 1;
+}
+  } 

@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+/*
+ * Map Styles
+ *
+ */
+#map-wrapper {
+        position: fixed;
+        height: auto;
+        width: 100%;
+        z-index: 0;
+        bottom:0;
+    	top:0;
+    	left:0;
+    	right:0;
+    	margin-top:62px;
+}
+
+.map {
+        background: rgba(232,224,216,1);
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 0;
+}
+/* Resultado */
+#events-result {
+	width:400px;
+    position: absolute;
+    right:0px;
+    top:70px;
+    padding:5px;
+    max-height:3600px;
+    z-index: 1000;
+ 	background:#000;
+    background:rgba(0, 0, 0, 0.5);
+}
